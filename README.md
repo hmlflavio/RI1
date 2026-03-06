@@ -1,2 +1,12 @@
-# RI1
-Atividade RI1 da disciplina de Programação Orientada a Objetos
+# Atividade Prática - Programação Orientada a Objetos
+
+**Aluno:** Flávio Lins
+**Turma:** Análise e Desenvolvimento de Sistemas (3ADS)
+
+## Como executar este projeto
+
+Este projeto foi desenvolvido utilizando JavaScript. Para rodar o código, certifique-se de ter o Node.js instalado e siga os passos abaixo:
+
+1. Abra o terminal na pasta do projeto.
+2. Para executar o arquivo principal, utilize o comando:
+   `node index.js`
