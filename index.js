@@ -1,75 +1,217 @@
-//Dance_Or_Die
-
-const capitao = {
-    nome: "Steve Rogers",
-    codinome: "Capitão América",
-    armaPrincipal: "Escudo americano",
-    armaSecundaria: "Capitalismo",
-    velocidade: 85,
+const capitaoAmerica = {
+    nome: 'Steve Rogers',
+    codinome: 'Capitão América',
+    armaPrincipal: 'Escudo',
+    armaSecundaria: '-',
+    velocidade: 70,
     forca: 75,
     resistencia: 80,
     descricao: function () {
-        return `Nome do personagem: ${this.nome}\nCodinome do personagem: ${this.codinome}\nArma principal: ${this.armaPrincipal}\nArma secundaria: ${this.armaSecundaria}\nNível de força: ${this.forca}\nNível de velocidade: ${this.velocidade}\nNível de resistência: ${this.resistencia}`;
+        return "Nome do personagem: " + this.nome + "\n"
+             + "Codinome do personagem: " + this.codinome + "\n"
+             + "Arma principal: " + this.armaPrincipal + "\n"
+             + "Arma secundaria: " + this.armaSecundaria + "\n"
+             + "Nível de força: " + this.forca + "\n"
+             + "Nível de velocidade: " + this.velocidade + "\n"
+             + "Nível de resistência: " + this.resistencia;
     }
-};
+}
 
-const ironman = {
-    nome: "Tony Stark",
-    codinome: "Homem de Ferro",
-    armaPrincipal: "Armadura",
-    armaSecundaria: "Repulsores",
-    velocidade: 90,
-    forca: 85,
-    resistencia: 85,
+const homemDeFerro = {
+    nome: 'Tony Stark',
+    codinome: 'Homem de Ferro',
+    armaPrincipal: 'Armadura',
+    armaSecundaria: 'Satélite fascista com tecnologia militar israelense',
+    velocidade: 80,
+    forca: 65,
+    resistencia: 60,
     descricao: function () {
-        return `Nome do personagem: ${this.nome}\nCodinome do personagem: ${this.codinome}\nArma principal: ${this.armaPrincipal}\nArma secundaria: ${this.armaSecundaria}\nNível de força: ${this.forca}\nNível de velocidade: ${this.velocidade}\nNível de resistência: ${this.resistencia}`;
+        return "Nome do personagem: " + this.nome + "\n"
+             + "Codinome do personagem: " + this.codinome + "\n"
+             + "Arma principal: " + this.armaPrincipal + "\n"
+             + "Arma secundaria: " + this.armaSecundaria + "\n"
+             + "Nível de força: " + this.forca + "\n"
+             + "Nível de velocidade: " + this.velocidade + "\n"
+             + "Nível de resistência: " + this.resistencia;
     }
-};
+}
 
-const thanos = {
-    nome: "Thanos",
-    codinome: "Titã Louco",
-    armaPrincipal: "Manopla do Infinito",
-    armaSecundaria: "Espada Dupla",
+const thor = {
+    nome: 'Thor Odinson',
+    codinome: 'Thor',
+    armaPrincipal: 'Mjonir',
+    armaSecundaria: 'Stormbreaker',
+    velocidade: 85,
+    forca: 100,
+    resistencia: 100,
+    descricao: function () {
+        return "Nome do personagem: " + this.nome + "\n"
+             + "Codinome do personagem: " + this.codinome + "\n"
+             + "Arma principal: " + this.armaPrincipal + "\n"
+             + "Arma secundaria: " + this.armaSecundaria + "\n"
+             + "Nível de força: " + this.forca + "\n"
+             + "Nível de velocidade: " + this.velocidade + "\n"
+             + "Nível de resistência: " + this.resistencia;
+    }
+}
+
+const viuvaNegra = {
+    nome: 'Natasha Romanov',
+    codinome: 'Viúva Negra',
+    armaPrincipal: 'Manoplas eletricas',
+    armaSecundaria: 'Bastões de Choque',
+    velocidade: 70,
+    forca: 50,
+    resistencia: 55,
+    descricao: function () {
+        return "Nome do personagem: " + this.nome + "\n"
+             + "Codinome do personagem: " + this.codinome + "\n"
+             + "Arma principal: " + this.armaPrincipal + "\n"
+             + "Arma secundaria: " + this.armaSecundaria + "\n"
+             + "Nível de força: " + this.forca + "\n"
+             + "Nível de velocidade: " + this.velocidade + "\n"
+             + "Nível de resistência: " + this.resistencia;
+    }
+}
+
+const gaviaoArqueiro = {
+    nome: 'Clint Barton',
+    codinome: 'Gavião Arqueiro',
+    armaPrincipal: 'Arco e flecha',
+    armaSecundaria: 'Armas de fogo',
+    velocidade: 55,
+    forca: 55,
+    resistencia: 50,
+    descricao: function () {
+        return "Nome do personagem: " + this.nome + "\n"
+             + "Codinome do personagem: " + this.codinome + "\n"
+             + "Arma principal: " + this.armaPrincipal + "\n"
+             + "Arma secundaria: " + this.armaSecundaria + "\n"
+             + "Nível de força: " + this.forca + "\n"
+             + "Nível de velocidade: " + this.velocidade + "\n"
+             + "Nível de resistência: " + this.resistencia;
+    }
+}
+
+const hulk = {
+    nome: 'Bruce Banner',
+    codinome: 'Hulk',
+    armaPrincipal: 'Socos',
+    armaSecundaria: 'Carros disponiveis no ambiente',
     velocidade: 70,
     forca: 100,
-    resistencia: 95,
+    resistencia: 100,
     descricao: function () {
-        return `Nome do personagem: ${this.nome}\nCodinome do personagem: ${this.codinome}\nArma principal: ${this.armaPrincipal}\nArma secundaria: ${this.armaSecundaria}\nNível de força: ${this.forca}\nNível de velocidade: ${this.velocidade}\nNível de resistência: ${this.resistencia}`;
+        return "Nome do personagem: " + this.nome + "\n"
+             + "Codinome do personagem: " + this.codinome + "\n"
+             + "Arma principal: " + this.armaPrincipal + "\n"
+             + "Arma secundaria: " + this.armaSecundaria + "\n"
+             + "Nível de força: " + this.forca + "\n"
+             + "Nível de velocidade: " + this.velocidade + "\n"
+             + "Nível de resistência: " + this.resistencia;
     }
-};
+}
 
-const personagens = [capitao, ironman, thanos];
 
-console.log("=== COMPARAÇÃO DOS PERSONAGENS ===");
+const feiticeiraEscarlate = {
+    nome: 'Wanda Maximoff',
+    codinome: 'Feiticeira Escarlate',
+    armaPrincipal: 'Magia',
+    armaSecundaria: 'Lacre',
+    velocidade: 90,
+    forca: 100,
+    resistencia: 100,
+    descricao: function () {
+        return "Nome do personagem: " + this.nome + "\n"
+             + "Codinome do personagem: " + this.codinome + "\n"
+             + "Arma principal: " + this.armaPrincipal + "\n"
+             + "Arma secundaria: " + this.armaSecundaria + "\n"
+             + "Nível de força: " + this.forca + "\n"
+             + "Nível de velocidade: " + this.velocidade + "\n"
+             + "Nível de resistência: " + this.resistencia;
+    }
+}
+
+const visao = {
+    nome: 'Visão',
+    codinome: 'Visão',
+    armaPrincipal: 'raio laser da testa calva dele',
+    armaSecundaria: '-',
+    velocidade: 90,
+    forca: 70,
+    resistencia: 80,
+    descricao: function () {
+        return "Nome do personagem: " + this.nome + "\n"
+             + "Codinome do personagem: " + this.codinome + "\n"
+             + "Arma principal: " + this.armaPrincipal + "\n"
+             + "Arma secundaria: " + this.armaSecundaria + "\n"
+             + "Nível de força: " + this.forca + "\n"
+             + "Nível de velocidade: " + this.velocidade + "\n"
+             + "Nível de resistência: " + this.resistencia;
+    }
+}
+
+const thanos = {
+    nome: 'Thanos',
+    codinome: 'Titã Louco Psicopata',
+    armaPrincipal: 'Manopla do Infinito',
+    armaSecundaria: 'Espada Dupla',
+    velocidade: 90,
+    forca: 90,
+    resistencia: 90,
+    descricao: function () {
+        return "Nome do personagem: " + this.nome + "\n"
+             + "Codinome do personagem: " + this.codinome + "\n"
+             + "Arma principal: " + this.armaPrincipal + "\n"
+             + "Arma secundaria: " + this.armaSecundaria + "\n"
+             + "Nível de força: " + this.forca + "\n"
+             + "Nível de velocidade: " + this.velocidade + "\n"
+             + "Nível de resistência: " + this.resistencia;
+    }
+}
+
+const personagens = [
+    capitaoAmerica,
+    homemDeFerro,
+    thor,
+    viuvaNegra,
+    gaviaoArqueiro,
+    hulk,
+    feiticeiraEscarlate,
+    visao,
+    thanos
+]
+
+const atributos = ['forca','velocidade','resistencia',]
 
 for (let i = 0; i < personagens.length; i++) {
     for (let j = i + 1; j < personagens.length; j++) {
-        let p1 = personagens[i];
-        let p2 = personagens[j];
-        
-        console.log(`\n--- Batalha: ${p1.codinome} vs ${p2.codinome} ---`);
-        
-        let pontosP1 = 0;
-        let pontosP2 = 0;
 
-        if (p1.forca > p2.forca) pontosP1++;
-        else if (p2.forca > p1.forca) pontosP2++;
+        console.log("\n==========================================");
+        console.log(
+            personagens[i].nome + " VS " + personagens[j].nome
+        );
+        console.log("==========================================");
 
-        if (p1.velocidade > p2.velocidade) pontosP1++;
-        else if (p2.velocidade > p1.velocidade) pontosP2++;
+        for (let k = 0; k < atributos.length; k++) {
 
-        if (p1.resistencia > p2.resistencia) pontosP1++;
-        else if (p2.resistencia > p1.resistencia) pontosP2++;
+            if (personagens[i][atributos[k]] > personagens[j][atributos[k]]) {
 
-        console.log(`Placar de Atributos: ${p1.codinome} [${pontosP1}] x [${pontosP2}] ${p2.codinome}`);
-        
-        if (pontosP1 > pontosP2) {
-            console.log(`🏆 O vencedor é: ${p1.codinome}!`);
-        } else if (pontosP2 > pontosP1) {
-            console.log(`🏆 O vencedor é: ${p2.codinome}!`);
-        } else {
-            console.log("⚖️ Empate!");
+                console.log(
+                    personagens[i].nome + " venceu em " + atributos[k]
+                );
+
+            } else if (personagens[j][atributos[k]] > personagens[i][atributos[k]]) {
+
+                console.log(
+                    personagens[j].nome + " venceu em " + atributos[k]
+                );
+
+            } else {
+
+                console.log("Empate em " + atributos[k]);
+
+            }
         }
     }
 }
