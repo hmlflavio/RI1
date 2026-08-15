@@ -135,7 +135,7 @@ const feiticeiraEscarlate = {
 const visao = {
     nome: 'Visão',
     codinome: 'Visão',
-    armaPrincipal: 'raio laser da testa calva dele',
+    armaPrincipal: 'raio laser da testa calva dele', //stream confessions ii
     armaSecundaria: '-',
     velocidade: 90,
     forca: 70,
